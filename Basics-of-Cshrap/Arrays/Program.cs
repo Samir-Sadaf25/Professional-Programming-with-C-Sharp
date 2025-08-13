@@ -15,4 +15,25 @@ grid[1, 0] = 3;
 grid[1, 1] = 4;
 grid[2, 0] = 5;
 grid[2, 1] = 6;
-Console.WriteLine(grid[1, 1]);
+//Console.WriteLine(grid[1, 1]);
+
+// [][][]
+// [][][][]
+// [][]
+
+int[][] arr = new int[3][];
+
+arr[0] = new int[2];
+arr[1] = new int[3];
+arr[2] = new int[4];
+
+arr[0][0] = 1;
+arr[0][1] = 2;
+
+arr[1][0] = 3;
+arr[1][1] = 4;
+arr[1][2] = 5;
+
+arr[2][0] = 6;
+arr[2][1] = 7;
+arr[2][2] = 8;
