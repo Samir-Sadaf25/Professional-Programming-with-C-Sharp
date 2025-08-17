@@ -15,7 +15,15 @@
 //Console.WriteLine(x);
 
 var nums = new int[5];
-for (int i = 0; i < 5; i++)
+//for (int i = 0; i < 5; i++)
+//{
+//    nums[i] = int.Parse(Console.ReadLine());
+//}
+
+string line = Console.ReadLine();
+string[] words = line.Split(' ',','); // split the input by space
+int m = 0;
+foreach (string word in words)
 {
-    nums[i] = int.Parse(Console.ReadLine());
+    nums[m++] = int.Parse(word.Trim());
 }
