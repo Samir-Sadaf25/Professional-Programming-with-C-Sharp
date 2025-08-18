@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "..\Arrays\Arrays.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutput", "..\InputOutput\InputOutput.csproj", "{C78CF48D-E620-4680-879D-57816F3F3CBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "..\Loops\Loops.csproj", "{5FFF4890-2E5C-4440-B3E3-62A0F84E9D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic problem solving", "..\basic problem solving\basic problem solving.csproj", "{C748589C-9E34-4B11-9894-3F09BDB6B98D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C78CF48D-E620-4680-879D-57816F3F3CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C78CF48D-E620-4680-879D-57816F3F3CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C78CF48D-E620-4680-879D-57816F3F3CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFF4890-2E5C-4440-B3E3-62A0F84E9D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFF4890-2E5C-4440-B3E3-62A0F84E9D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFF4890-2E5C-4440-B3E3-62A0F84E9D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFF4890-2E5C-4440-B3E3-62A0F84E9D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
