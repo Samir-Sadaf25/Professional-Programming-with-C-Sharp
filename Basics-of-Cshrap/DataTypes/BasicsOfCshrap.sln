@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "..\Loops\Loops.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic problem solving", "..\basic problem solving\basic problem solving.csproj", "{C748589C-9E34-4B11-9894-3F09BDB6B98D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaMethod", "..\LambdaMethod\LambdaMethod.csproj", "{76673458-B2F9-46AA-AFED-11FB38F98003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C748589C-9E34-4B11-9894-3F09BDB6B98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76673458-B2F9-46AA-AFED-11FB38F98003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76673458-B2F9-46AA-AFED-11FB38F98003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76673458-B2F9-46AA-AFED-11FB38F98003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76673458-B2F9-46AA-AFED-11FB38F98003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
