@@ -16,6 +16,5 @@ for (int i = 0; i < 5;i++)
 
     }
 }
-Console.ReadKey();
 int moves = Math.Abs(row - 2) + Math.Abs(col - 2);
 Console.WriteLine(moves);
