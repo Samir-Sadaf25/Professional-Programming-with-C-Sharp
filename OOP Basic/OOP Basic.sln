@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with class", "Working with class\Working with class.csproj", "{3907B917-D06C-42B1-9DA3-C62480D5D00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overloading", "Method Overloading\Method Overloading.csproj", "{0BA3FF86-3BE7-4A28-8C61-5301AAD7FFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3907B917-D06C-42B1-9DA3-C62480D5D00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3907B917-D06C-42B1-9DA3-C62480D5D00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3907B917-D06C-42B1-9DA3-C62480D5D00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA3FF86-3BE7-4A28-8C61-5301AAD7FFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA3FF86-3BE7-4A28-8C61-5301AAD7FFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA3FF86-3BE7-4A28-8C61-5301AAD7FFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA3FF86-3BE7-4A28-8C61-5301AAD7FFD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

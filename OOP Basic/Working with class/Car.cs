@@ -1,7 +1,5 @@
-﻿
-
-
-
+﻿namespace oop
+{ 
     class Car
     {
      public string color;
@@ -38,5 +36,6 @@
     void stop()
     { hasEngineStarted = false;
     }
+}
 }
 
