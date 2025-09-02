@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Inheritance;
+Product phone = new Product();
+Fruits fruit = new Fruits();
+fruit.name = "Apple";
+fruit.price = 1.99;

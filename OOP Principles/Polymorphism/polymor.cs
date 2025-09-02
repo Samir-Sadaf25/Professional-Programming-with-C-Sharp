@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance
+namespace Polymorphism
 {
-    public class Fruits : Product
+    internal class polymor
     {
-        public string quantity { get; set; }
-
     }
 }
