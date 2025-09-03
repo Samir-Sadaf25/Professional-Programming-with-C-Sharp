@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Beautiful Matrix", "A. B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Bit++", "A. Bit++\A. Bit++.csproj", "{2FF3449A-8556-418E-9E53-42969FF59865}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Petya_and_Strings", "A_Petya_and_Strings\A_Petya_and_Strings.csproj", "{378FF63D-873E-49A7-A88A-DEBF4BF613F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2FF3449A-8556-418E-9E53-42969FF59865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FF3449A-8556-418E-9E53-42969FF59865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FF3449A-8556-418E-9E53-42969FF59865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
