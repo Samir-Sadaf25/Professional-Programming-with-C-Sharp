@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{19BA261C-E645-4987-8481-2315CE04DD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{419E28A0-DC6A-4E18-881A-A7B7444E902A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Overloading", "..\OOP Basic\Method Overloading\Method Overloading.csproj", "{A417B0F7-4FD4-12CF-C493-FC0BACB6BE73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{19BA261C-E645-4987-8481-2315CE04DD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19BA261C-E645-4987-8481-2315CE04DD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19BA261C-E645-4987-8481-2315CE04DD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419E28A0-DC6A-4E18-881A-A7B7444E902A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419E28A0-DC6A-4E18-881A-A7B7444E902A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419E28A0-DC6A-4E18-881A-A7B7444E902A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419E28A0-DC6A-4E18-881A-A7B7444E902A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A417B0F7-4FD4-12CF-C493-FC0BACB6BE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A417B0F7-4FD4-12CF-C493-FC0BACB6BE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A417B0F7-4FD4-12CF-C493-FC0BACB6BE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A417B0F7-4FD4-12CF-C493-FC0BACB6BE73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
