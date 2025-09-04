@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    internal class Burger : product
+    public class Burger : Product
     {
         public double extraCheese { get; set; }
         public double extraPatty { get; set; }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    internal class product
+    public class Product
     {
         public string name { get; set; }
         public int price { get; set; }  
         public int quantity { get; set; }
-        public product()
+        public Product()
         {
             name = string.Empty;
         }
