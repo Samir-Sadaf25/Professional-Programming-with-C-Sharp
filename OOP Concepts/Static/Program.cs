@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Static;
+
+var pi = geometry.PI;
+var area = geometry.CircleArea(7);
