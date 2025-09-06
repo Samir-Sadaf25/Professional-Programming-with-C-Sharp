@@ -13,5 +13,4 @@ else
 {
     Console.WriteLine("0");
 }
-Console.ReadKey();
 

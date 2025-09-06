@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Bit++", "A. Bit++\A. Bit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Petya_and_Strings", "A_Petya_and_Strings\A_Petya_and_Strings.csproj", "{378FF63D-873E-49A7-A88A-DEBF4BF613F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_String_Task", "A_String_Task\A_String_Task.csproj", "{B7222011-34D8-42AC-B876-DFF5A44C882D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{378FF63D-873E-49A7-A88A-DEBF4BF613F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7222011-34D8-42AC-B876-DFF5A44C882D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7222011-34D8-42AC-B876-DFF5A44C882D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7222011-34D8-42AC-B876-DFF5A44C882D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7222011-34D8-42AC-B876-DFF5A44C882D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
