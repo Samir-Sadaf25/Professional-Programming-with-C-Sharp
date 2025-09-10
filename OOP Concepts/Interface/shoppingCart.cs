@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    internal class shoppingCart
+    public class shoppingCart
     {
+        public Iproduct[] products { get; set; }
+        public int itemCount { get; set; }
+        public void showCartItems()
+        {
+             var total = 0.0m;
+            foreach (var item in products)
+            {
+                Console.WriteLine($"{item.name} {item.price}")
+                    total += item.getDiscountedPrice();
+            }
+        }
+
     }
 }

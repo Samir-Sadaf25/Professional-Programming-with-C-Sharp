@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Interface;
+
+shoppingCart cart = new shoppingCart();
+cart.products[cart.itemCount++] = new camera();
+cart.products[cart.itemCount++] = new toothpaste();

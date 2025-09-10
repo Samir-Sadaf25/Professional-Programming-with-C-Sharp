@@ -8,6 +8,9 @@ namespace Interface
 {
     public interface Iproduct
     {
+        string name { get; set; }
+        decimal discount { get; set; }
+        decimal price { get; set; }
         decimal getDiscountedPrice();
     }
 }

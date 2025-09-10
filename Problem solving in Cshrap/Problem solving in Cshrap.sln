@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_String_Task", "A_String_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "339A_Helpful_Maths", "339A_Helpful_Maths\339A_Helpful_Maths.csproj", "{377C237F-0229-4981-801D-153E2BFA0B59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Stones_on_the_Table", "A_Stones_on_the_Table\A_Stones_on_the_Table.csproj", "{2202078F-B66C-4D37-B27D-BF621FCE4CAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{377C237F-0229-4981-801D-153E2BFA0B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377C237F-0229-4981-801D-153E2BFA0B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377C237F-0229-4981-801D-153E2BFA0B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

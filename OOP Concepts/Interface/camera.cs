@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    internal class camera : Iproduct
+    public class camera : Iproduct
     {
-        deci
+       public  string name { get; set; }
+       public decimal discount { get; set; }
+         public decimal price { get; set; }
+        public decimal getDiscountedPrice()
+        {
+            return price - (price * discount / 100);
+        }
     }
 }
