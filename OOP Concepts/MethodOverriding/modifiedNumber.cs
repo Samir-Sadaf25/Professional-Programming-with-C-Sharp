@@ -10,16 +10,9 @@ namespace MethodOverriding
     {
         public new void Print(int count) {
 
+            base.Print(count);
             Console.WriteLine("child class");
-            foreach (int item in numberItems)
-            {
-               
-                if (item > count)
-                {
-                   
-                    Console.WriteLine(item);
-                }
-            }
+           
         }
     }
 }
