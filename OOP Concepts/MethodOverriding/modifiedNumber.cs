@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MethodOverriding
 {
-    public class modifiedNumber : number
+    public sealed class modifiedNumber : number
     {
         public new void Print(int count) {
 
@@ -14,5 +14,10 @@ namespace MethodOverriding
             Console.WriteLine("child class");
            
         }
+        public override void replace(in int[] numberItems)
+        {
+            base.replace(numberItems);
+        }
+
     }
 }
