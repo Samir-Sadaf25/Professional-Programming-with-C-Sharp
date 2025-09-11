@@ -15,7 +15,7 @@ namespace Interface
              var total = 0.0m;
             foreach (var item in products)
             {
-                Console.WriteLine($"{item.name} {item.price}")
+                Console.WriteLine($"{item.name} {item.price}");
                     total += item.getDiscountedPrice();
             }
         }
