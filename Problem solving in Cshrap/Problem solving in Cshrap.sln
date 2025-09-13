@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "339A_Helpful_Maths", "339A_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Stones_on_the_Table", "A_Stones_on_the_Table\A_Stones_on_the_Table.csproj", "{2202078F-B66C-4D37-B27D-BF621FCE4CAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Boy_or_Girl", "A_Boy_or_Girl\A_Boy_or_Girl.csproj", "{D02C9009-C7EE-4B6F-8595-6E44863B5612}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2202078F-B66C-4D37-B27D-BF621FCE4CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02C9009-C7EE-4B6F-8595-6E44863B5612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02C9009-C7EE-4B6F-8595-6E44863B5612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02C9009-C7EE-4B6F-8595-6E44863B5612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02C9009-C7EE-4B6F-8595-6E44863B5612}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
