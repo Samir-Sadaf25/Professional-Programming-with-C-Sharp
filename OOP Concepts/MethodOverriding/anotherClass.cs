@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MethodOverriding
 {
-    internal class anotherClass
+    public class anotherClass : modifiedNumber
     {
+
     }
 }

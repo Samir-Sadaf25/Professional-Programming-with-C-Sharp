@@ -14,7 +14,7 @@ namespace MethodOverriding
             Console.WriteLine("child class");
            
         }
-        public override void replace(in int[] numberItems)
+        public sealed override void replace(in int[] numberItems)
         {
             base.replace(numberItems);
         }

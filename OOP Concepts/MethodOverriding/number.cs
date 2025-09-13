@@ -19,5 +19,17 @@ namespace MethodOverriding
                 }
             }
         }
+        public virtual void replace(in int[] numberItems)
+        {
+            foreach (int item in numberItems)
+            {
+                if (item > numberItems[0])
+                {
+                    Console.WriteLine(item);
+                }
+            }
+
+        }
+
     }
 }
