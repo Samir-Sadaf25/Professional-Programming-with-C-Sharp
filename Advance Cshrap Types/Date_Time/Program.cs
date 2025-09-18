@@ -10,5 +10,6 @@ DateTime d5 = d1.AddDays(-2); // show 2 days before
 //Console.WriteLine(d5.ToString("dd-MM-yyyy"));
 Console.WriteLine(d1.ToShortTimeString());
 Console.WriteLine(d1.ToShortDateString());
+
 double dayGap = d1.Subtract(d5).TotalDays;
 Console.WriteLine(dayGap);
