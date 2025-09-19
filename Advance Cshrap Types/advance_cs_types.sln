@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Date_Time", "Date_Time\Date
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Builder", "String_Builder\String_Builder.csproj", "{97206DE8-7B0B-4DDA-9D5E-9A9207EE1C3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{9E601323-691E-4A37-B0E9-ED5E7E711F28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterModifiers", "Params\ParameterModifiers.csproj", "{9E601323-691E-4A37-B0E9-ED5E7E711F28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
