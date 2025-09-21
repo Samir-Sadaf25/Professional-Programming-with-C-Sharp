@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Builder", "String_Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterModifiers", "Params\ParameterModifiers.csproj", "{9E601323-691E-4A37-B0E9-ED5E7E711F28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{EF8257E3-77A2-45BD-ABB7-D1A66E56E752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9E601323-691E-4A37-B0E9-ED5E7E711F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E601323-691E-4A37-B0E9-ED5E7E711F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E601323-691E-4A37-B0E9-ED5E7E711F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8257E3-77A2-45BD-ABB7-D1A66E56E752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8257E3-77A2-45BD-ABB7-D1A66E56E752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8257E3-77A2-45BD-ABB7-D1A66E56E752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8257E3-77A2-45BD-ABB7-D1A66E56E752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

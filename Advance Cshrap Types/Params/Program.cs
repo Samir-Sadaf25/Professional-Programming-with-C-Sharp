@@ -35,5 +35,4 @@ static void someFunction(out int InsideVar)
 //static void someFunction(ref int InsideVar)
 //{
 //    InsideVar = 20 + 10;
-
 //}
