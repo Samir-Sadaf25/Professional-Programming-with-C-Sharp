@@ -17,13 +17,12 @@ for (int i = 0; i < nums.Length; i++)
         {
             count[j].howMany++;
             found = true;
-            
+
         }
     }
-    if(!found)
-    {
+    if (!found)
         count[idx++] = (nums[i], 1);
-    }
+
 }
 //for (int  i = 0;  i < idx;  i++)
 //{
@@ -31,7 +30,7 @@ for (int i = 0; i < nums.Length; i++)
 //}
 
 // another example of Tuple
-(int sum,int difference) calculate(int x,int y)
+(int sum, int difference) calculate(int x, int y)
 {
     return (sum: x + y, difference: x - y);
 }
