@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anonymous_Object", "Anonymous_Object\Anonymous_Object.csproj", "{5F502BDD-A9CB-45A1-A694-AAF2CFAE85D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic_Keyword", "Dynamic_Keyword\Dynamic_Keyword.csproj", "{5A197FE0-F966-4768-A6CA-075242AE1329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5F502BDD-A9CB-45A1-A694-AAF2CFAE85D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F502BDD-A9CB-45A1-A694-AAF2CFAE85D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F502BDD-A9CB-45A1-A694-AAF2CFAE85D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A197FE0-F966-4768-A6CA-075242AE1329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A197FE0-F966-4768-A6CA-075242AE1329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A197FE0-F966-4768-A6CA-075242AE1329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A197FE0-F966-4768-A6CA-075242AE1329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
