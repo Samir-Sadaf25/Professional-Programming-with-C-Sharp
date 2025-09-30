@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Wrong_Subtraction", "A_Wr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_Elephant", "A_Elephant\A_Elephant.csproj", "{A8A81F5A-7A2F-4580-9870-F5F2CCF4A485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Chat room", "A. Chat room\A. Chat room.csproj", "{A10D4DEB-D8C4-471A-887E-328F985887E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A8A81F5A-7A2F-4580-9870-F5F2CCF4A485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8A81F5A-7A2F-4580-9870-F5F2CCF4A485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8A81F5A-7A2F-4580-9870-F5F2CCF4A485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10D4DEB-D8C4-471A-887E-328F985887E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10D4DEB-D8C4-471A-887E-328F985887E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10D4DEB-D8C4-471A-887E-328F985887E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10D4DEB-D8C4-471A-887E-328F985887E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
