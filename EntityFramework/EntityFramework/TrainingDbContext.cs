@@ -22,7 +22,14 @@ namespace EntityFramework
 
             base.OnConfiguring(optionsBuilder);
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Topic>().ToTable("Topics");
+
+            base.OnModelCreating(modelBuilder);
+        }
 
         public DbSet<Student> Student { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }
