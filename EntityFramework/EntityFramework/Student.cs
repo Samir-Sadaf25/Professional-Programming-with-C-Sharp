@@ -12,5 +12,6 @@ namespace EntityFramework
         public string Name { get; set; }
         public double Cgpa { get; set; }
         public DateTime dateOfBirth { get; set; }
+        public List<CourseStudent> Courses { get; set; }
     }
 }

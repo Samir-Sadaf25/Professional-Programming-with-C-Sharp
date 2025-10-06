@@ -14,6 +14,7 @@ namespace EntityFramework
         public int CourseId { get; set; }
         public DateTime ClassStartDate { get; set; }
         public List<Topic> topics { get; set; }  // Navigation property: one Course has many Topics
+        public List<CourseStudent> Students { get; set; }
 
     }
 }

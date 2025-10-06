@@ -25,11 +25,22 @@ namespace EntityFramework
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Topic>().ToTable("Topics");
+            modelBuilder.Entity<CourseStudent>().ToTable("CourseStudents");
+            modelBuilder.Entity<CourseStudent>().HasKey(x => new { x.CourseId, x.StudentId });
+            
+            modelBuilder.Entity<Course>().HasMany(x => x.topics)
+                .WithOne(x => x.Course).HasForeignKey(x => x.CourseId);
 
+           // many to many relationship
+            modelBuilder.Entity<CourseStudent>().HasOne<Course>(x => x.Course)
+                .WithMany(x => x.Students).HasForeignKey(x => x.CourseId);
+            modelBuilder.Entity<CourseStudent>().HasOne(x => x.Student).WithMany(x => x.Courses).HasForeignKey(x => x.StudentId);
+            
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Student> Student { get; set; }
         public DbSet<Course> Courses { get; set; }
+
     }
 }
