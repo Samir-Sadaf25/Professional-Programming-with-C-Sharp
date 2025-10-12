@@ -7,11 +7,10 @@ var keyboard = new Keyboard();
 //    Console.WriteLine($"{key.Name} : {key.Code}");
 //}
 
-Console.WriteLine("before for each");
 foreach (var key in keyboard)
 {
     Console.WriteLine($"{key.Name} : {key.Code}");
-   
-}
+    Console.WriteLine($"{key.Name} : {key.Code}");
 
+}
 
