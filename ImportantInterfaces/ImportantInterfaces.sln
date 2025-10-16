@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ienumerable", "Ienumerable\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iDisposable", "iDisposable\iDisposable.csproj", "{70425F14-9120-4D7C-9948-098B6531BB98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iClonable", "iClonable\iClonable.csproj", "{7AD3DC76-129C-472F-9EC8-FB7252F87C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{70425F14-9120-4D7C-9948-098B6531BB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70425F14-9120-4D7C-9948-098B6531BB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70425F14-9120-4D7C-9948-098B6531BB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD3DC76-129C-472F-9EC8-FB7252F87C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD3DC76-129C-472F-9EC8-FB7252F87C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD3DC76-129C-472F-9EC8-FB7252F87C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD3DC76-129C-472F-9EC8-FB7252F87C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace iClonable
+{
+    public class Product : ICloneable
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+
+        public object Clone()
+        {
+            return new Product
+            {
+                Name = Name,
+                Price = Price
+            };
+        }
+    }
+}
