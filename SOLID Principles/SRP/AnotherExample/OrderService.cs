@@ -9,23 +9,23 @@ namespace SRP.AnotherExample
     
     public class OrderService
     {
-        public void CreateOrder(Order order )
+        private readonly OrderRepository _repository;
+        private readonly EmailService _emailService;
+        private readonly Logger _logger;
+        
+        public OrderService(OrderRepository repository, EmailService emailService, Logger logger)
         {
-           SaveToDatabase( order );
-            SendEmail(order);
-            Log(order);
+            _repository = repository;
+            _emailService = emailService;
+            _logger = logger;
         }
-        private void SaveToDatabase( Order order )
+        public void CreateOrder(Order order)
         {
-            Console.WriteLine("saving order");
-        }
-        private void SendEmail(Order order)
-        {
-            Console.WriteLine("sending email");
-        }
-        private void Log(Order order)
-        {
-            Console.WriteLine("logging order");
+        
+            _emailService.Send(order);
+            _logger.Log(order);
+            _repository.Save(order);
+            //Now each class has one responsibility.
         }
     }
 }
