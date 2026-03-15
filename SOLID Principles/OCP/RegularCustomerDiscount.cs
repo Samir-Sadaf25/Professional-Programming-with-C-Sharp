@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OCP
 {
-    public class DiscountCalculator
+    public class RegularCustomerDiscount : IDiscountStrategy
     {
-        public double CalculateDiscount(IDiscountStrategy strategy,double amount)
+        public double calculate(double amount)
         {
-           return strategy.calculate(amount);
+            return amount * 0.05;
         }
     }
 }
