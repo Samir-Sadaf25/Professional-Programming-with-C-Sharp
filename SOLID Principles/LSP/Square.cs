@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace LSP
 {
-     public class Square : Rectangle
+     public class Square
     {
-        
+        public int side { get; set; }
+        public int CalculateArea()
+        {
+            return side * side;
+        }
     }
 }

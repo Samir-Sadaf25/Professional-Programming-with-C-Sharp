@@ -1,5 +1,5 @@
 ﻿using LSP;
 
 Square square = new Square();
-square.height = 10;
-square.width = 10;
+square.side = 10;
+square.CalculateArea();
