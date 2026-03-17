@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-     public interface IWorker
+    public interface IEatable
     {
-        void Work();
         void Eat();
     }
 }

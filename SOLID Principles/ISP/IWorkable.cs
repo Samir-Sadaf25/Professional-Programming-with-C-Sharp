@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    public class Robot : IWorkable
+     public interface IWorkable
     {
-        
-        public void Work()
-        {
-            throw new NotImplementedException(); 
-        }
+        void Work();
     }
 }

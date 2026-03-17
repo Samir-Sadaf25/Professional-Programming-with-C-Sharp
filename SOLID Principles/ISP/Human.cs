@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    internal class Human : IWorker
+    internal class Human : IWorkable,IEatable
     {
         public void Eat()
         {
