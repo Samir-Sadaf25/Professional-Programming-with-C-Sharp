@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    public class EmailService : IMessageService
+    public class SmsService : IMessageService
     {
         public void Send()
         {
-            Console.WriteLine("Sending Email");
+            Console.WriteLine("Sending SMS");
         }
     }
 }

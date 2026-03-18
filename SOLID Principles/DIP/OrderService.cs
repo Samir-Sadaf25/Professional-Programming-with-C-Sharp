@@ -8,11 +8,17 @@ namespace DIP
 {
      public class OrderService
     {
-        private EmailService _emailService = new EmailService();
+        private readonly IMessageService _messageService;
+
+        public OrderService(IMessageService messageService)
+        {
+            _messageService = messageService;
+        }
+
         public void placeOrder()
         {
             Console.WriteLine("Order placed");
-            _emailService.Send();
+            _messageService.Send();
         }
     }
 }
