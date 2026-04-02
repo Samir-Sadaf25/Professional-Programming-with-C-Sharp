@@ -56,6 +56,8 @@ var scoreCount = highsScoreQuery3.Count();
     new City("Tianjin", 13_215_000)
 ];
 
+
+
 Country[] countries = [
     new Country ("Vatican City", 0.44, 526, [new City("Vatican City", 826)]),
     new Country ("Monaco", 2.02, 38_000, [new City("Monte Carlo", 38_000)]),
@@ -66,6 +68,21 @@ Country[] countries = [
     new Country ("Marshall Islands", 181, 58_000, [new City("Majuro", 28_000)]),
     new Country ("Saint Kitts & Nevis", 261, 53_000, [new City("Basseterre", 13_000)])
 ];
+
+Product[] products = [
+    new Product("Apple", "F"),
+    new Product("Banana", "F"),
+    new Product("Carrot", "V"),
+    new Product("Broccoli", "V"),
+    new Product("Milk", "D"),
+];
+
+Category[] categories = [
+    new Category("F", "Fruits"),
+    new Category("V", "Vegetables"),
+    new Category("D", "Dairy"),
+];
+
 
 // Query syntex
 IEnumerable<City> queryMajorCities =
@@ -101,16 +118,57 @@ var queryCountryGroups = from country in countries
 //             group city by city.Population;
 var queryCities = from city in cities
                   group city by city.Name[0];
-foreach (var item in queryCities)
+//foreach (var item in queryCities)
+//{
+//    Console.WriteLine($"key: {item.Key}");
+//    foreach (var city in item)
+//    {
+//        Console.WriteLine($" {city.Name}");
+//    }
+//}
+
+// into
+//var queryInto = from city in cities
+//                group city by city.Name[0] into cityGroup
+//                where cityGroup.Count() > 1
+//                select cityGroup;
+var queryInto = from city in cities
+                group city by city.Name[0] into cityGroup
+                where cityGroup.Count() > 1
+                orderby cityGroup.Key
+               select cityGroup;
+//foreach (var item in queryInto)
+//{
+//    Console.WriteLine($"key: {item.Key}");
+//    foreach (var city in item)
+//    {
+//        Console.WriteLine($" {city.Name}");
+//    }
+//}
+
+// JOIN clause
+var x = from product in products
+join category in categories
+on product.CategoryID equals category.ID
+select new { product.Name, category.CategoryName };
+foreach (var item in x)
 {
-    Console.WriteLine($"key: {item.Key}");
-    foreach (var city in item)
-    {
-        Console.WriteLine($" {city.Name}");
-    }
+    Console.WriteLine($"{item.Name} - {item.CategoryName}");
+}
+
+// let clause 
+string[] names = ["Svetlana Omelchenko", "Claire O'Donnell", "Sven Mortensen", "Cesar Garcia"];
+var queryFirstName =
+from name in names
+let firstName = name.Split(' ')[0]
+select firstName;
+foreach (var s in queryFirstName)
+{
+    Console.Write(s + " ");
 }
 
 record City(string Name, long Population);
 record Country(string Name, double Area, long Population, List<City> Cities);
-record Product(string Name, string Category);
-
+//record Product(string Name, string Category);
+record Product(string Name, string CategoryID);
+record Category(string ID, string CategoryName);
