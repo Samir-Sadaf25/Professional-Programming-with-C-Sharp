@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch_Statement", "Switch_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseIndexing", "InverseIndexing\InverseIndexing.csproj", "{84A12336-EC66-4186-AE04-8E9E098063C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{7C9B83CA-402D-4825-9FB2-4567B5FA851A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{84A12336-EC66-4186-AE04-8E9E098063C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A12336-EC66-4186-AE04-8E9E098063C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A12336-EC66-4186-AE04-8E9E098063C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9B83CA-402D-4825-9FB2-4567B5FA851A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9B83CA-402D-4825-9FB2-4567B5FA851A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9B83CA-402D-4825-9FB2-4567B5FA851A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9B83CA-402D-4825-9FB2-4567B5FA851A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
