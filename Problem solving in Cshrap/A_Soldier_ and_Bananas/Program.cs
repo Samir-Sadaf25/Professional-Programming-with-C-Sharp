@@ -4,7 +4,7 @@ int k = int.Parse(line[0]);
 int n = int.Parse(line[1]);
 int w = int.Parse(line[2]);
 
-int sum  = 0;
+int sum = 0;
 for (int i = 1; i <= w; i++)
 {
     sum += i;
